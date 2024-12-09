@@ -12,13 +12,13 @@ A collection of Python utilities for PDF manipulation. Currently includes functi
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/pdf-utils.git
-cd pdf-utils
+git clone https://github.com/Xyz9Selu/es-pdf-utils.git
+cd es-pdf-utils
 ```
 
 2. Install the required dependencies:
 ```bash
-pip install PyMuPDF
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -51,7 +51,7 @@ python split_pdf.py input.pdf output.pdf "h1:1"
 
 2. Split first page in half, keep second page whole, split remaining pages in ratio 35:36:37:
 ```bash
-python split_pdf.py input.pdf output.pdf "h1:1,1,h35:36:37"
+python split_pdf.py input.pdf output.pdf "h1:1,1,h35:30:35"
 ```
 
 ## Requirements
